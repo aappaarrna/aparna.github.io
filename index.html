@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        
+        <title>APARNA CAFE</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+         <header>
+            <nav>
+               <div class="row">
+                    <img src="images/logo.jpg">
+
+                    <ul class="main-nav" id="check-class">
+                        <li><a href="#">CAKE DELIVERY</a></li>
+                        <li><a href="#">HOW TO ORDER</a></li>
+                        <li><a href="#">CHECK MORE</a></li>
+                        <li><a href="#">SIGN UP</a></li>
+                    </ul>
+                    <a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+
+            <div class="main-content-header">
+
+            <h1><span>WELCOME TO <span class="colorchange">APARNA CAFE</span>.<br>
+                      HOUSE OF CAKE LOVER OO YES. </h1>
+            <a href="#" class="btn btn-full">click to order</a>
+            <a href="#" class="btn btn-nav">show me more</a>
+
+        </header>
+
+    
+       <script type="text/javascript">
+
+        function slideshow(){
+            var x = document.getElementById("check-class");
+            if(x.style.display==="none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        } 
+            
+
+        
+        </script>
+    </body>
+</html>
